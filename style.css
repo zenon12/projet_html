@@ -1,0 +1,45 @@
+.mm {
+    background-color: rgb(170, 142, 106);
+    text-align: right;
+    padding: 30px;
+    border: 5px double rgb(148, 121, 148);
+}
+.mm > a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 10px;
+    margin: 10px   ;
+    
+    
+}
+a:link {
+    color: rgb(224, 223, 236);
+}
+
+/* visited link */
+a:visited {
+    color: rgb(21, 26, 19);
+}
+
+/* mouse over element */
+div:hover {
+    color: rgb(27, 21, 20);
+} 
+
+/* selected link */
+a:active{
+    color: #a272ac 
+}
+.ph1 {
+    font-size: large;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.ph1-ph2>p {
+    display: inline-block;
+} 
+
